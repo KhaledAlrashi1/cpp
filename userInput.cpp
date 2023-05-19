@@ -24,7 +24,7 @@ int main() {
     string first_name, last_name, age, school, school_major;
 
     // This line outputs the given string
-    cout<<"for the following questions, please enter one word";
+    cout<<"for the following questions, please enter one word\n";
     cout<<"Enter your first name here: ";
     // This line waits for the user to input information and stores in the given variable
     cin>>first_name;
