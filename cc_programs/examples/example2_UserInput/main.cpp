@@ -45,7 +45,7 @@ int main() {
 
     cout<<"\n\nSo, your name is "<<first_name<<" "<<last_name<<" and you're "<<age<<" years old. ";
     cout<<"You said you study "<<school_major<<" at "<<school;
-    cout<<". You're so cool! Nice to meet you!\n"<<endl;
+    cout<<".\nYou're so cool! Nice to meet you!\n"<<endl;
 
     return 0;
 }
