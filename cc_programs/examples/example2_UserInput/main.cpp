@@ -1,9 +1,8 @@
 /*
-Program: gets inputs from the user and outputs them on the console or terminal 
-Author: Khaled Alrashidi
-Data: May 19, 2023
-
-Description: This is a simple C++ program that asks the user to input information. After that, the program outputs them 
+1. Program: gets inputs from the user and outputs them on the console or terminal 
+2. Author: Khaled Alrashidi
+3. Data: May 19, 2023
+4. Description: This is a simple C++ program that asks the user to input information. After that, the program outputs them 
 on the console or terminal
 */
 

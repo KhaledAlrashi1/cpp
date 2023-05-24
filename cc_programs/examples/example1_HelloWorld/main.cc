@@ -1,8 +1,8 @@
 /*
-Program: output strings to the console or terminal
-Author: Khaled Alrashidi
-Date: May 19, 2023
-Description: This is a simple C++ program that output a string to the console or terminal. While the program is simple, I'll explain
+1. Program: output strings to the console or terminal
+2. Author: Khaled Alrashidi
+3. Date: May 19, 2023
+4. Description: This is a simple C++ program that output a string to the console or terminal. While the program is simple, I'll explain
 every thing we see for the first time.
 */
 

@@ -1,8 +1,8 @@
 /* 
-Program: basic calculator
-Author: Khaled Alrashidi 
-Data: May 24, 2023
-Description: the program can take two operands and perfrom operations, such as 
+1. Program: basic calculator
+2. Author: Khaled Alrashidi 
+3. Data: May 24, 2023
+4. Description: the program can take two operands and perfrom operations, such as 
 addition, subtraction, division, and mulitplication. it asks the user to input the type
 of operation and the two operands. 
 */
