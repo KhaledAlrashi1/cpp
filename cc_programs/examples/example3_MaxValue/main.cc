@@ -31,7 +31,6 @@ int main() {
         int element;
         std::cin >> element;
         input.push_back(element);
-
     }
     // assign the first element of the vector "input" to temp variable called "Max"
     Max = input[0];
