@@ -4,6 +4,7 @@
 3. Author: Khaled Alrashidi
 4. Date: May 25, 2023
 5. Description: The program declares and initilizes vectors as well as prints their contents on the terminal.
+It also performs subtraction and addition on two vectors and stores the result in new vectors.
 */
 
 #include <iostream>
@@ -39,6 +40,26 @@ int main() {
   std::cout << "vec_int3's contents: ";
   for(int i=0; i<size(vec_int3); ++i){
     std::cout << vec_int3[i] << " ";
+  } std::cout << std::endl;
+
+  //sum up two vectors
+  std::vector<int> vec_int4;
+  for (int i=0; i<vec_int1.size(); ++i){
+      vec_int4.push_back(vec_int1[i] + vec_int2[i]);
+  }
+  std::cout << "vec_int4's contents: ";
+  for(int i=0; i<size(vec_int4); ++i){
+    std::cout << vec_int4[i] << " ";
+  } std::cout << std::endl;
+
+  //subtract one vector from another
+  std::vector<int> vec_int5;
+  for(int i=0; i<vec_int3.size(); ++i){
+    vec_int5.push_back(vec_int3[i]-vec_int2[i]);
+  }
+  std::cout << "vec_int5's contents: ";
+  for(int i=0; i<size(vec_int5); ++i){
+    std::cout << vec_int5[i] << " ";
   } std::cout << std::endl;
 
   return 0;
